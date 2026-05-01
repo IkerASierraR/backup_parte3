@@ -1,0 +1,38 @@
+{
+  "name": "safebridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SafeBridge - Backup y restauración de SQL Server",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "electron-store": "^10.0.1",
+    "lucide-react": "^0.511.0",
+    "mssql": "^11.0.1",
+    "os": "^0.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.20",
+    "electron": "^32.2.0",
+    "electron-vite": "^2.3.0",
+    "eslint": "^9.26.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.18"
+  }
+}
